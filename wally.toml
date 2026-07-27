@@ -1,5 +1,5 @@
 [package]
-name = "finch/flightframework"
+name = "funnyfinch/flightframework"
 description = "WIP Deterministic state synchronization framework for Roblox"
 version = "0.1.0"
 license = "MIT"
@@ -8,4 +8,3 @@ registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
 [dependencies]
-flightFramework = "finch/flightframework@0.1.0"

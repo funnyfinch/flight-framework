@@ -34,7 +34,7 @@ export type connectionConfig = typeof(connectionConfig.input)
 export type signal<P... = ...any> = {
 	connect: (self: signal<P...>, (P...) -> (), connectionConfig?) -> connection<P...>,
 	once: (self: signal<P...>, (P...) -> (), connectionConfig?) -> connection<P...>,
-	wait: (self: signal<P...>, connectionConfig?, ...any) -> P...,
+	wait: (self: signal<P...>, connectionConfig?, P...) -> P...,
 	fire: (self: signal<P...>, P...) -> ()
 }
 
