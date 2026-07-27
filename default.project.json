@@ -1,0 +1,12 @@
+{
+  "name": "flightFramework",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "modules": {
+        "$path": "src/flightFramework"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+[package]
+name = "finch/flightframework"
+description = "WIP Deterministic state synchronization framework for Roblox"
+version = "0.1.0"
+license = "MIT"
+authors = ["finch"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+flightFramework = "finch/flightframework@0.1.0"
